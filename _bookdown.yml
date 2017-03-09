@@ -1,0 +1,9 @@
+book_filename: "survey-docs"
+chapter_name: "Capítulo "
+clean: [bookdown.run.xml, bookdown.bbl]
+language:
+  label:
+    fig: "Figura : "
+    tab: "Tabla : "
+  ui:
+    edit: "Edit"

@@ -1,0 +1,26 @@
+--- 
+title: "Survey docs"
+author: "Andrea Fernández Conde"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [latex/book.bib]
+biblio-style: biblatex-chicago
+link-citations: yes
+github-repo: sociedat/survey-docs
+description: "Este es un esfuerzo en español para realizar análisis de encuestas con diseño complejo en R."
+---
+
+```{r, include=FALSE}
+options(
+  htmltools.dir.version = FALSE, formatR.indent = 2, width = 55, digits = 2
+)
+```
+
+# Prefacio {-}
+
+## ¿Por qué leer este libro?
+
+## Estructura del libro
+

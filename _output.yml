@@ -1,0 +1,27 @@
+bookdown::gitbook:
+  css: css/estilos.css
+  config:
+    toc:
+      collapse: none
+      before: |
+        <li><a href="./">Survey Docs</a></li>
+      after: |
+        <li><a href="https://bookdown.org" target="blank">Published with bookdown</a></li>
+    download: [pdf, epub]
+    edit: https://github.com/sociedat/survey-docs/edit/master/%s
+    sharing:
+      github: yes
+      facebook: no
+bookdown::pdf_book:
+  includes:
+    in_header: latex/preambulo.sty
+  keep_tex: yes
+  latex_engine: pdflatex
+  template: null
+  pandoc_args: --top-level-division=chapter
+  toc_depth: 3
+  toc_unnumbered: no
+  toc_appendix: yes
+  quote_footer: ["\\VA{", "}{}"]
+bookdown::epub_book:
+  stylesheet: css/estilos.css
